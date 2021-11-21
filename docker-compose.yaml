@@ -1,0 +1,9 @@
+version: "2"  # optional since v1.27.0
+
+services:
+  scrappy:
+    image: python:3.8.12-slim
+    volumes:
+      - ./:/scrapy_tutorial
+    command: tail -f /dev/null
+      
