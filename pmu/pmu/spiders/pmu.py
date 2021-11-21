@@ -1,13 +1,12 @@
 import scrapy
 
 
-class QuotesSpider(scrapy.Spider):
+class pmuSpider(scrapy.Spider):
     name = "races"
 
     def start_requests(self):
         urls = [
              'https://horseraces.pmu.fr/racecards'
-            #'http://quotes.toscrape.com/page/2/'
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
