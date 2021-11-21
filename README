@@ -1,0 +1,7 @@
+This project goal is to show potential customers my skills regarding web crawling.
+
+You'll find code that will:
+  - Scrape data of a webpage
+  - Store it in a postgres database
+  - Render it in Metabase
+
